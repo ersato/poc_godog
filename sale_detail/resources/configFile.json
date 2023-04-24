@@ -1,0 +1,23 @@
+{
+  "api" : {
+    "url" : "https://post-purchase-context-test.melioffice.com/post-purchase-context/wrappers/sale-detail/pnr_reminder",
+    "headers_sale_details": [
+      {
+        "key": "X-Client-Id",
+        "value": "3578784305991029"
+      },
+      {
+        "key": "X-Caller-Id",
+        "value": "1177794367"
+      },
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "key": "X-Scope",
+        "value": "test"
+      }
+    ]
+  }
+}
