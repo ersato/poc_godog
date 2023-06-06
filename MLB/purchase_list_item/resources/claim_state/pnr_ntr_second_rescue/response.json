@@ -1,0 +1,18 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "item_list": {
+    "type": "warning",
+    "header": "Reclamação aberta",
+    "title": "Confirme se você recebeu a compra ou entre em contato conosco",
+    "description": {
+      "type": "paragraph",
+      "title": "",
+      "content": "Você tem até domingo, 31 de dezembro."
+    },
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

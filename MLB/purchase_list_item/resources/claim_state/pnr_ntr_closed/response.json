@@ -1,0 +1,14 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "item_list": {
+    "type": "error",
+    "header": "Compra cancelada",
+    "title": "Seu reembolso está em processo",
+    "description": null,
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

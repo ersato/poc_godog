@@ -1,0 +1,60 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Reclamação aberta",
+    "title": "Você pode escolher como continuar até domingo, 31 de dezembro.",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Como o vendedor ainda não confirmou o envio da compra, você pode escolher outras opções."
+      },
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Se você já a recebeu, nos avise e encerraremos a reclamação."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Escolher como continuar",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions?referrer=purchase",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "secondary",
+        "label": "Já recebi a compra",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase&reason_id=product_delivered",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Falar com o Mercado Livre",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/buyer/mediation",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Encerrar reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

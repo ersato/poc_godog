@@ -1,0 +1,30 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Compra cancelada",
+    "title": "Estamos processando seu reembolso",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Em minutos, você poderá ver as informações do seu reembolso."
+      }
+    ],
+    "actions": null
+  },
+  "secondary": {
+    "title": "Reclamação encerrada",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

@@ -1,0 +1,48 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Cancelamento solicitado",
+    "title": "Acesse o WhatsApp para podermos te dar uma solução",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Se não conseguirmos nos comunicar com você, entraremos em contato antes de 31 de dezembro."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Ir para o WhatsApp",
+        "type": "redirect",
+        "content": "https://wa.me/5511947663471",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Encerrar a solicitação de cancelamento",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Como meu caso será solucionado",
+        "type": "help",
+        "content": "24034",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

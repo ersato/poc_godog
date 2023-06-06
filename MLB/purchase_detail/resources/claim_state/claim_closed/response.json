@@ -1,0 +1,19 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "secondary": {
+    "title": "Solicitação encerrada",
+    "subtitle": "A compra já está cancelada",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/42139118821/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

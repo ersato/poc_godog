@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "title": "Mediação com o Mercado Livre",
+    "subtitle": "Vamos te escrever antes de domingo, 31 de dezembro.",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Atender reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/vendas/novo/mensagens/2000005173152240/reclamacao/5177338381",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema da venda"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "O comprador disse que se arrependeu da compra."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

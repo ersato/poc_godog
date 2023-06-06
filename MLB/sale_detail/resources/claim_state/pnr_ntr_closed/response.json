@@ -1,0 +1,20 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "title": "Mediação finalizada com reembolso para o comprador",
+    "subtitle": "O comprador não poderá reiniciar uma reclamação por esta venda.",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/vendas/novo/mensagens/2000005173152240/reclamacao/5177338381",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

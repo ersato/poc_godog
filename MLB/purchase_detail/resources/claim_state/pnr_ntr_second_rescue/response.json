@@ -1,0 +1,48 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "warning",
+    "header": "Reclamação aberta",
+    "title": "Confirme se você recebeu a compra ou entre em contato conosco. Você tem até domingo, 31 de dezembro.",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Se você não fizer isso até essa data, vamos encerrar a reclamação e você não receberá o reembolso."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Já recebi a compra",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase&reason_id=product_delivered",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "secondary",
+        "label": "Falar com o Mercado Livre",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/buyer/mediation",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Encerrar reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

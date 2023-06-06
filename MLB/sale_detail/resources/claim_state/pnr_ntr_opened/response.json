@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "O comprador reclamou porque precisa do pacote",
+    "subtitle": "Por favor, envie o produto até domingo, 31 de dezembro, por Correios. Após essa data, o comprador poderá cancelar a venda.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/vendas/novo/mensagens/2000005173152240/reclamacao/5177338381",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema da venda"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "O comprador disse que se arrependeu da compra."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

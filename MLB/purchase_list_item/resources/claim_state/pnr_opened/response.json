@@ -1,0 +1,18 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "item_list": {
+    "type": "info",
+    "header": "Cancelamento solicitado",
+    "title": "Confirmaremos antes de segunda-feira, 1 de janeiro se podemos cancelar a compra",
+    "description": {
+      "type": "paragraph",
+      "title": "",
+      "content": "Sua compra continua garantida."
+    },
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

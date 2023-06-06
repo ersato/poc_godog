@@ -8,6 +8,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"reflect"
 )
 
@@ -20,15 +21,22 @@ func (a *ApiFeature) SetConfig(pathConfig string) {
 	a.pathConfig = pathConfig
 }
 
-func (a *ApiFeature) CallService(pathUrlConfig, pathRequestBody, headersKey string) (err error) {
-	url := GetConfigJsonFile(a.pathConfig, pathUrlConfig)
+func (a *ApiFeature) CallService(typeScopePnrWrapper, pathUrlConfig, pathClaimState, pathRequestBody, headersKey string) (err error) {
+	url := a.getUrl(typeScopePnrWrapper, pathUrlConfig)
 	headerJson := GetConfigJsonFile(a.pathConfig, headersKey)
 	var headers []map[string]string
 	if err := json.Unmarshal([]byte(headerJson), &headers); err != nil {
 		panic(err)
 	}
-	a.resp = CallWebServicePostWithHeaders(headers, pathRequestBody, url)
+	a.resp = CallWebServicePostWithHeaders(headers, pathRequestBody, url+pathClaimState)
 	return
+}
+
+func (a *ApiFeature) getUrl(typeScopePnrWrapper, pathUrlConfig string) string {
+	if hostTest := os.Getenv("HOST_TEST"); hostTest != "" {
+		return hostTest + typeScopePnrWrapper + "/"
+	}
+	return GetConfigJsonFile(a.pathConfig, pathUrlConfig)
 }
 
 func (a *ApiFeature) TheResponseCodeShouldBe(code int) (err error) {

@@ -1,0 +1,39 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Cancelamento solicitado",
+    "title": "Confirmaremos antes de segunda-feira, 1 de janeiro se podemos cancelar a compra",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Estamos confirmando se o vendedor não despachou o pacote para reembolsar seu dinheiro."
+      },
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Sua compra continua garantida."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "O que acontece se já despachou",
+        "type": "help",
+        "content": "23980",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Encerrar a solicitação de cancelamento",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
