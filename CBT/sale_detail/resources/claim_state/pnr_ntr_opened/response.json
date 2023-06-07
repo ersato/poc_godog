@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "Your buyer complains because they need to receive the package",
+    "subtitle": "Deliver it to the pickup before Monday, January 1. After that date, the buyer may cancel the order.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Respond to complaint",
+        "type": "redirect",
+        "content": "https://global-selling.mercadolibre.com/sales/new/messages/2000005805320984/claim/5196840734",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problem with the order"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "The buyer said there is no stock of the product."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

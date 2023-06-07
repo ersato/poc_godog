@@ -1,0 +1,40 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "The buyer is requesting to cancel. You must resolve it today.",
+    "subtitle": "Please resolve the complaint within the timeframe. Otherwise, we will have to cancel the order.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Respond to complaint",
+        "type": "redirect",
+        "content": "https://global-selling.mercadolibre.com/sales/new/messages/2000005805320984/claim/5196840734",
+        "placeholders": null
+      },
+      {
+        "id": "pnr_reputation_with_cancellation",
+        "hierarchy": "tertiary",
+        "label": "How to take care of my reputation in complaints with cancelation",
+        "type": "help",
+        "content": "https://global-selling.mercadolibre.com/help/28475",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problem with the order"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "The buyer said there is no stock of the product."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

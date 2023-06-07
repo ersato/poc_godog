@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "title": "Mediation with Mercado Libre",
+    "subtitle": "We will reply to you before Monday, January 1.",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Respond to complaint",
+        "type": "redirect",
+        "content": "https://global-selling.mercadolibre.com/sales/new/messages/2000005805320984/claim/5196840734",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problem with the order"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "The buyer said there is no stock of the product."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
