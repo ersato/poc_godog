@@ -1,0 +1,19 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": null,
+  "secondary": {
+    "title": "Solicitud cerrada",
+    "subtitle": "La compra ya está cancelada",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/compras/nueva/mensajeria/0/1393861804/reclamo/5196931411",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

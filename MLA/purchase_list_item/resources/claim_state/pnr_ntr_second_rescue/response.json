@@ -1,0 +1,18 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": null,
+  "item_list": {
+    "type": "warning",
+    "header": "Reclamo abierto",
+    "title": "Confirmá si recibiste la compra o contactanos",
+    "description": {
+      "type": "paragraph",
+      "title": "",
+      "content": "Tenés tiempo hasta el domingo 31 de diciembre."
+    },
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

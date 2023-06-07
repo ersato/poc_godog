@@ -1,0 +1,30 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": {
+    "type": "info",
+    "header": "Compra cancelada",
+    "title": "Estamos procesando el reembolso del dinero",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "En minutos podrás ver información sobre tu reembolso."
+      }
+    ],
+    "actions": null
+  },
+  "secondary": {
+    "title": "Reclamo cerrado",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/compras/nueva/mensajeria/2000005808115704/1393861804/reclamo/5196931411",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

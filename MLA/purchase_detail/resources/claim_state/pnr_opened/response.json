@@ -1,0 +1,39 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": {
+    "type": "info",
+    "header": "Cancelación solicitada",
+    "title": "Te confirmaremos antes del lunes 1 de enero si podemos cancelar la compra",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Estamos validando que el vendedor no haya despachado el paquete para reembolsarte el dinero."
+      },
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Tu compra sigue protegida."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Qué pasa si ya despachó",
+        "type": "help",
+        "content": "23980",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Cerrar solicitud de cancelación",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/close-claim",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

@@ -1,0 +1,40 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": {
+    "type": "error",
+    "title": "Tu comprador solicita cancelar",
+    "subtitle": "Tenés hasta el domingo 31 de diciembre para resolver el reclamo y que no afecte tu reputación. Luego del plazo, cancelaremos la venta.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/ventas/nueva/mensajeria/2000005808115704/reclamo/5196931411",
+        "placeholders": null
+      },
+      {
+        "id": "pnr_reputation_with_cancellation",
+        "hierarchy": "tertiary",
+        "label": "Cómo cuidar mi reputación en reclamos con cancelación",
+        "type": "help",
+        "content": "https://www.mercadolibre.com.ar/ayuda/28475",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema de la venta"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "El comprador dijo que tiene un inconveniente."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

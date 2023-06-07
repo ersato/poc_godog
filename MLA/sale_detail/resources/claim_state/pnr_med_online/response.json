@@ -1,0 +1,32 @@
+{
+  "resource_type": "",
+  "resource_id": 0,
+  "status": {
+    "type": "info",
+    "title": "Mediación con Mercado Libre",
+    "subtitle": "Te escribiremos antes del domingo 31 de diciembre.",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Atender reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/ventas/nueva/mensajeria/2000005808115704/reclamo/5196931411",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema de la venta"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "El comprador dijo que tiene un inconveniente."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
