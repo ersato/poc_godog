@@ -1,0 +1,110 @@
+{
+  "resource": {
+    "id": 42139118821,
+    "type": "shipment"
+  },
+  "claim": {
+    "id": 5195129376,
+    "type": "mediations",
+    "stage": "claim",
+    "status": "closed",
+    "product_domain": null,
+    "parent_id": null,
+    "client_id": 1569196570216262,
+    "resource_id": 2000005745915020,
+    "resource": "order",
+    "reason_id": "PNR9503",
+    "fulfilled": false,
+    "players": [
+      {
+        "role": "complainant",
+        "type": "buyer",
+        "user_id": 1346273178,
+        "available_actions": []
+      },
+      {
+        "role": "respondent",
+        "type": "seller",
+        "user_id": 1346088601,
+        "available_actions": []
+      }
+    ],
+    "resolution": {
+      "reason": "respondent_timeout",
+      "date_created": "2023-05-30T10:13:40.000-04:00",
+      "benefited": [
+        "complainant"
+      ],
+      "closed_by": "mediator",
+      "applied_coverage": true
+    },
+    "labels": [
+      {
+        "name": "test_claim",
+        "value": "true",
+        "comments": null,
+        "admin_id": "api-core",
+        "date_created": "2023-05-30T09:30:26.000-04:00"
+      },
+      {
+        "name": "handling_delayed",
+        "value": "true",
+        "comments": null,
+        "admin_id": "api-core",
+        "date_created": "2023-05-30T09:30:26.000-04:00"
+      },
+      {
+        "name": "claim_version",
+        "value": "2.0",
+        "comments": null,
+        "admin_id": "pnr-controler",
+        "date_created": "2023-05-30T09:30:26.000-04:00"
+      },
+      {
+        "name": "reason_flow",
+        "value": "mediations_undelivered",
+        "comments": "[reasonId: PNR9503]",
+        "admin_id": "internal",
+        "date_created": "2023-05-30T09:30:26.000-04:00"
+      },
+      {
+        "name": "forward_label",
+        "value": "free",
+        "comments": "Didn't charge seller for forward label cost",
+        "admin_id": "coverages-charges",
+        "date_created": "2023-05-30T10:14:14.000-04:00"
+      }
+    ],
+    "site_id": "MPE",
+    "date_created": "2023-05-30T09:30:26.000-04:00",
+    "last_updated": "2023-05-30T10:14:14.000-04:00"
+  },
+  "claim_state": {
+    "id": 105871529,
+    "name": "claim_closed",
+    "claim_id": 5177338381,
+    "due_date": null,
+    "display_due_date": null,
+    "site_id": "MLB",
+    "date_created": "2023-03-01T01:24:55.959-04:00",
+    "current": true,
+    "initialized": true,
+    "modifiers": {},
+    "previous_state": {
+      "id": 104545546,
+      "name": "pnr_reminder",
+      "modifiers": {
+        "send_message_turn": "respondent"
+      }
+    },
+    "trigger": {
+      "event_type": "action",
+      "action": {
+        "name": "close_claim",
+        "player_role": "mediator",
+        "user_id": 46622406,
+        "action_reason_id": null
+      }
+    }
+  }
+}

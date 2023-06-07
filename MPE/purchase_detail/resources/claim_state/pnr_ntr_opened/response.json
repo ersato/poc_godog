@@ -1,0 +1,43 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Reclamo abierto",
+    "title": "Le pedimos al vendedor que gestione la entrega antes del lunes 1 de enero",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Si no lo hace, te contactaremos para ofrecerte ayuda personalizada o la cancelación de la compra."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Ver reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/compras/nueva/mensajeria/2000005745915020/1346088601/reclamo/5195129376",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Qué pasa si no la gestiona",
+        "type": "help",
+        "content": "28035",
+        "placeholders": {
+          "sellerPackageDueDate": "lunes 1 de enero"
+        }
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Cerrar reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/post-purchase/claims/5195129376/actions/close-claim?referrer=purchase",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

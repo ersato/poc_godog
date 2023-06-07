@@ -1,0 +1,40 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "Tu comprador solicita cancelar",
+    "subtitle": "Tienes hasta el domingo 31 de diciembre para resolver el reclamo, luego del plazo, tendremos que cancelar la venta.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/ventas/nueva/mensajeria/2000005745915020/reclamo/5195129376",
+        "placeholders": null
+      },
+      {
+        "id": "pnr_reputation_with_cancellation",
+        "hierarchy": "tertiary",
+        "label": "Cómo cuidar mi reputación en reclamos con cancelación",
+        "type": "help",
+        "content": "https://www.mercadolibre.com.pe/ayuda/28475",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema de la venta"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "El comprador dijo que no tienes stock del producto."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

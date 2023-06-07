@@ -1,0 +1,30 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Compra cancelada",
+    "title": "Estamos procesando el reembolso del dinero",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "En minutos podrás ver información sobre tu reembolso."
+      }
+    ],
+    "actions": null
+  },
+  "secondary": {
+    "title": "Reclamo cerrado",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/compras/nueva/mensajeria/2000005745915020/1346088601/reclamo/5195129376",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

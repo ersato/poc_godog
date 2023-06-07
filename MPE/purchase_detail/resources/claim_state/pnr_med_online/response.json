@@ -1,0 +1,48 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Cancelación solicitada",
+    "title": "Ingresa a Whatsapp para que podamos darte una solución",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Si no logramos comunicarnos, te contactaremos antes del 31 de diciembre."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Ir a WhatsApp",
+        "type": "redirect",
+        "content": "https://wa.me/5491127227255",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/compras/nueva/mensajeria/2000005745915020/1346088601/reclamo/5195129376",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Cerrar solicitud de cancelación",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/post-purchase/claims/5195129376/actions/close-claim",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Cómo solucionarán mi caso",
+        "type": "help",
+        "content": "24034",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

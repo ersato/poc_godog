@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "Tu comprador reclama porque necesita el paquete",
+    "subtitle": "Resuélvelo hasta el domingo 31 de diciembre. Antes de entregar el paquete confirma con el comprador si aún lo quiere.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.pe/ventas/nueva/mensajeria/2000005745915020/reclamo/5195129376",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema de la venta"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "El comprador dijo que no tienes stock del producto."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
