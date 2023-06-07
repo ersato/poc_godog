@@ -1,0 +1,14 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "item_list": {
+    "type": "info",
+    "header": "Cancelación solicitada",
+    "title": "Ingresa a WhatsApp para que podamos ayudarte",
+    "description": null,
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

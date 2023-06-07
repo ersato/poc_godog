@@ -1,0 +1,19 @@
+{
+  "api": {
+    "url": "https://post-purchase-context.melioffice.com/post-purchase-context/wrappers/purchase-detail/",
+    "headers": [
+      {
+        "key": "X-Client-Id",
+        "value": "3578784305991029"
+      },
+      {
+        "key": "X-Caller-Id",
+        "value": "1370008888"
+      },
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ]
+  }
+}

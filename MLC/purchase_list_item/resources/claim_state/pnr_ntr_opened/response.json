@@ -1,0 +1,18 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": null,
+  "item_list": {
+    "type": "info",
+    "header": "Reclamo abierto",
+    "title": "Le pedimos al vendedor que envíe la compra antes del lunes 1 de enero",
+    "description": {
+      "type": "paragraph",
+      "title": "",
+      "content": "Tu compra sigue protegida."
+    },
+    "actions": null
+  },
+  "secondary": null,
+  "metadata": null
+}

@@ -1,0 +1,32 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "Tu comprador reclama porque necesita el paquete",
+    "subtitle": "Resuélvelo hasta el domingo 31 de diciembre. Si el comprador aún quiere el paquete, despáchalo en una agencia de Mercado Libre.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.cl/ventas/nueva/mensajeria/2000005676509568/reclamo/5196813524",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema de la venta"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "El comprador dijo que se arrepintió de la compra."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

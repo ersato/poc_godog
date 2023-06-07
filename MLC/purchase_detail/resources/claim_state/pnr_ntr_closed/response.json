@@ -1,0 +1,30 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Compra cancelada",
+    "title": "Estamos procesando el reembolso del dinero",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "En minutos podrás ver información sobre tu reembolso."
+      }
+    ],
+    "actions": null
+  },
+  "secondary": {
+    "title": "Reclamo cerrado",
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Ver",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.cl/compras/nueva/mensajeria/2000005676509568/1346088017/reclamo/5196813524",
+        "placeholders": null
+      }
+    ]
+  },
+  "metadata": null
+}

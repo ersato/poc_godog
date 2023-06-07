@@ -1,0 +1,46 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Cancelación solicitada",
+    "title": "Te contactaremos antes del domingo 31 de diciembre para darte una solución",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Estamos analizando lo que pasó para cancelar la compra."
+      },
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Tu compra sigue protegida."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Cómo solucionarán mi caso",
+        "type": "help",
+        "content": "24034",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamo",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.cl/compras/nueva/mensajeria/2000005676509568/1346088017/reclamo/5196813524",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Cerrar solicitud de cancelación",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.cl/post-purchase/claims/5196813524/actions/close-claim",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
