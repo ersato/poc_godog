@@ -12,7 +12,8 @@
         "content": "En minutos podrás ver información sobre tu reembolso."
       }
     ],
-    "actions": null
+    "actions": null,
+    "modals": null
   },
   "secondary": {
     "title": "Reclamo cerrado",
@@ -24,7 +25,8 @@
         "content": "https://www.mercadolibre.com.ar/compras/nueva/mensajeria/2000005808115704/1393861804/reclamo/5196931411",
         "placeholders": null
       }
-    ]
+    ],
+    "modals": null
   },
   "metadata": null
 }

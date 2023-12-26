@@ -12,7 +12,8 @@
         "content": "Em minutos, você poderá ver as informações do seu reembolso."
       }
     ],
-    "actions": null
+    "actions": null,
+    "modals": null
   },
   "secondary": {
     "title": "Reclamação encerrada",
@@ -24,7 +25,8 @@
         "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
         "placeholders": null
       }
-    ]
+    ],
+    "modals": null
   },
   "metadata": null
 }

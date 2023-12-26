@@ -4,7 +4,7 @@
   "status": {
     "type": "warning",
     "header": "Reclamo abierto",
-    "title": "Confirmá si recibiste la compra o contactanos. Tenés tiempo hasta el domingo 31 de diciembre.",
+    "title": "Elegí cómo querés continuar. Tenés tiempo hasta el domingo 31 de diciembre.",
     "messages": [
       {
         "type": "paragraph",
@@ -14,17 +14,17 @@
     ],
     "actions": [
       {
-        "hierarchy": "secondary",
-        "label": "Ya recibí la compra",
+        "hierarchy": "primary",
+        "label": "Elegir cómo continuar",
         "type": "redirect",
-        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/close-claim?referrer=purchase&reason_id=product_delivered",
+        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions?referrer=purchase",
         "placeholders": null
       },
       {
         "hierarchy": "secondary",
-        "label": "Contactar a Mercado Libre",
+        "label": "Ya recibí la compra",
         "type": "redirect",
-        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/buyer/mediation",
+        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/close-claim?referrer=purchase&reason_id=product_delivered",
         "placeholders": null
       },
       {
@@ -36,12 +36,27 @@
       },
       {
         "hierarchy": "tertiary",
+        "label": "Contactar a Mercado Libre",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/buyer/mediation",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Solicitar cancelación",
+        "type": "redirect",
+        "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/change-expected-resolution",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
         "label": "Cerrar reclamo",
         "type": "redirect",
         "content": "https://www.mercadolibre.com.ar/post-purchase/claims/5196931411/actions/close-claim?referrer=purchase",
         "placeholders": null
       }
-    ]
+    ],
+    "modals": null
   },
   "secondary": null,
   "metadata": null

@@ -1,6 +1,6 @@
 {
   "api": {
-    "url": "https://post-purchase-context.melioffice.com/post-purchase-context/wrappers/purchase-detail/",
+    "url": "https://post-purchase-context.melioffice.com/post-purchase-context/wrappers/purchase-list-item/",
     "headers": [
       {
         "key": "X-Client-Id",
@@ -13,6 +13,14 @@
       {
         "key": "Content-Type",
         "value": "application/json"
+      },
+      {
+        "key": "X-Ppc-Contract",
+        "value": "purchase-detail"
+      },
+      {
+        "key": "X-scope",
+        "value": "beta"
       }
     ]
   }

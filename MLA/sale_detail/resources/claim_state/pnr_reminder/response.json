@@ -4,7 +4,7 @@
   "status": {
     "type": "error",
     "title": "Tu comprador solicita cancelar. Tenés hasta hoy para resolver.",
-    "subtitle": "Solucioná el reclamo en este plazo. De lo contrario, tu reputación se afectará y tendremos que cancelar la venta.",
+    "subtitle": "Solucioná el reclamo en este plazo, de lo contrario, tendremos que cancelar la venta.",
     "actions": [
       {
         "hierarchy": "primary",

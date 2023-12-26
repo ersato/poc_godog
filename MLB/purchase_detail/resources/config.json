@@ -13,6 +13,10 @@
       {
         "key": "Content-Type",
         "value": "application/json"
+      },
+      {
+        "key": "X-scope",
+        "value": "beta"
       }
     ]
   }

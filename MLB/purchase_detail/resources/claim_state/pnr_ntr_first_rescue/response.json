@@ -48,12 +48,20 @@
       },
       {
         "hierarchy": "tertiary",
+        "label": "Solicitar cancelamento",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/change-expected-resolution",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
         "label": "Encerrar reclamação",
         "type": "redirect",
         "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase",
         "placeholders": null
       }
-    ]
+    ],
+    "modals": null
   },
   "secondary": null,
   "metadata": null

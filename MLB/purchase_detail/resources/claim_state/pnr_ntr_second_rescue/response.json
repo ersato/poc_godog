@@ -4,7 +4,7 @@
   "status": {
     "type": "warning",
     "header": "Reclamação aberta",
-    "title": "Confirme se você recebeu a compra ou entre em contato conosco. Você tem até domingo, 31 de dezembro.",
+    "title": "Escolha como quer continuar. Você tem até domingo, 31 de dezembro.",
     "messages": [
       {
         "type": "paragraph",
@@ -14,17 +14,17 @@
     ],
     "actions": [
       {
-        "hierarchy": "secondary",
-        "label": "Já recebi a compra",
+        "hierarchy": "primary",
+        "label": "Escolher como continuar",
         "type": "redirect",
-        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase&reason_id=product_delivered",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions?referrer=purchase",
         "placeholders": null
       },
       {
         "hierarchy": "secondary",
-        "label": "Falar com o Mercado Livre",
+        "label": "Já recebi a compra",
         "type": "redirect",
-        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/buyer/mediation",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase&reason_id=product_delivered",
         "placeholders": null
       },
       {
@@ -36,12 +36,27 @@
       },
       {
         "hierarchy": "tertiary",
+        "label": "Falar com o Mercado Livre",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/buyer/mediation",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Solicitar cancelamento",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/change-expected-resolution",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
         "label": "Encerrar reclamação",
         "type": "redirect",
         "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim?referrer=purchase",
         "placeholders": null
       }
-    ]
+    ],
+    "modals": null
   },
   "secondary": null,
   "metadata": null

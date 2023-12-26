@@ -12,6 +12,14 @@
         "type": "redirect",
         "content": "https://www.mercadolivre.com.br/vendas/novo/mensagens/2000005173152240/reclamacao/5177338381",
         "placeholders": null
+      },
+      {
+        "id": "pnr_ntr_take_care_reputation_late_shipment",
+        "hierarchy": "tertiary",
+        "label": "Como cuidar da minha reputação em uma reclamação por atraso?",
+        "type": "help",
+        "content": "https://www.mercadolivre.com.br/ajuda/28812",
+        "placeholders": null
       }
     ],
     "claim_reason": [

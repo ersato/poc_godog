@@ -13,6 +13,14 @@
       {
         "key": "Content-Type",
         "value": "application/json"
+      },
+      {
+        "key": "X-Ppc-Contract",
+        "value": "purchase-detail"
+      },
+      {
+        "key": "X-scope",
+        "value": "beta"
       }
     ]
   }

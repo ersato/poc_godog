@@ -5,11 +5,11 @@
   "item_list": {
     "type": "warning",
     "header": "Reclamo abierto",
-    "title": "Confirmá si recibiste la compra o contactanos",
+    "title": "Tenés hasta el domingo 31 de diciembre para elegir cómo continuar",
     "description": {
       "type": "paragraph",
       "title": "",
-      "content": "Tenés tiempo hasta el domingo 31 de diciembre."
+      "content": "Si no lo hacés, cerraremos el reclamo."
     },
     "actions": null
   },
